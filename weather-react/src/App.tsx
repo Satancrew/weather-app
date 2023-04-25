@@ -1,8 +1,5 @@
 import React from 'react';
-import {
-  Route,
-  Routes,
-} from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { Home } from './pages/Home/Home';
 import { Statistic } from './pages/Statistic/Statistic';
 import { Header } from './shared/Header/Header';
@@ -13,14 +10,8 @@ function App() {
     <div className="container">
       <Header />
       <Routes>
-        <Route
-          path="/"
-          element={<Home />}
-        />
-        <Route
-          path="/statistic"
-          element={<Statistic />}
-        />
+        <Route path="/" element={<Home />} />
+        <Route path="/statistic" element={<Statistic />} />
       </Routes>
     </div>
   );

@@ -5,9 +5,7 @@ import { GlobalSvgSelector } from '../../assets/icons/global/GlobalSvgSelector';
 
 type Props = {};
 
-export const Header = (
-  props: Props,
-) => {
+export const Header = (props: Props) => {
   const options = [
     {
       value: 'city-1',
@@ -26,8 +24,7 @@ export const Header = (
   const colourStyles = {
     control: (styles: any) => ({
       ...styles,
-      backgroundColor:
-        'rgba(71, 147, 255, 0.2)',
+      backgroundColor: 'rgba(71, 147, 255, 0.2)',
       width: '194px',
       height: '37px',
       border: 'none',
@@ -42,15 +39,10 @@ export const Header = (
         <div className={styles.logo}>
           <GlobalSvgSelector id="header-logo" />
         </div>
-        <div className={styles.title}>
-          React weather
-        </div>
+        <div className={styles.title}>React weather</div>
       </div>
       <div className={styles.wrapper}>
-        <div
-          className={
-            styles.change_theme
-          }>
+        <div className={styles.change_theme}>
           <GlobalSvgSelector id="change-theme" />
         </div>
         <Select
