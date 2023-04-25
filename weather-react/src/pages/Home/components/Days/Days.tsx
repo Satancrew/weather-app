@@ -1,6 +1,7 @@
 import React from 'react';
 import styles from './Days.module.scss';
 import { Card } from './Card';
+import { Tabs } from './Tabs';
 
 type Props = {};
 
@@ -73,10 +74,13 @@ export const Days = (props: Props) => {
     },
   ];
   return (
+    <>
+    <Tabs />
     <div className={styles.days}>
       {days.map((day: Day) => (
         <Card key={day.day_id} day={day} />
       ))}
     </div>
+    </>
   );
 };
