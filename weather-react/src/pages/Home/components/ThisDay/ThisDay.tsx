@@ -18,7 +18,8 @@ export const ThisDay = (props: Props) => {
         <div className={styles.this__time}>
           Время: <span>21:15</span>
         </div>
-        <div className={styles.this__city}>Москва</div>
+        <div className={styles.this__city}>
+          Город: <span>Санкт-Петербург</span></div>
       </div>
     </div>
   );
