@@ -25,6 +25,7 @@
   .day {
     margin-bottom: 7px;
     font-size: 18px;
+    color: var(#{--text-background-default})
   }
 
   .day__info {
@@ -39,6 +40,7 @@
 
   .day__temp {
     font-size: 18px;
+    color: var(#{--text-background-default})
   }
 
   .day__night {
