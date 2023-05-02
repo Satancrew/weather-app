@@ -11,7 +11,7 @@
   padding: 40px;
   max-width: 750px;
   width: 100%;
-  background: $lite-background;
+  background: $light-background;
   box-shadow: $box-shadow;
   border-radius: $border-radius;
 }
@@ -61,7 +61,8 @@
     margin-bottom: 12px;
   }
 
-  .day__time, .day__city {
+  .day__time,
+  .day__city {
     font-size: 15px;
     color: $base-color;
   }
